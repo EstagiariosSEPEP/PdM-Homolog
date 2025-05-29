@@ -1,5 +1,5 @@
-import "../../style/_button.css"; // Importa os estilos
-import { scrollToSection } from "../../utils/scroll"; // Importa a função de scroll animado
+import "../../style/_button.css";
+import { scrollToSection } from "../../utils/scroll";
 
 export default function CustomButton({
   type,
@@ -10,7 +10,7 @@ export default function CustomButton({
 }) {
   const handleClick = () => {
     if (type === "scroll") {
-      scrollToSection(target); // Agora usa a animação suave personalizada
+      scrollToSection(target);
     } else if (type === "download") {
       const link = document.createElement("a");
       link.href = target;
