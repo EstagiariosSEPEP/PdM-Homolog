@@ -1,14 +1,15 @@
-import Home from './pages/Home/home';
-import { HashRouter } from 'react-router-dom';
-import './App.css'
-
+import Home from "./pages/Home/home";
+import Navbar from "./components/Navbar/navbar";
+import { HashRouter } from "react-router-dom";
+import "./App.css";
 
 function App() {
   return (
     <HashRouter>
-       <Home/>
+      <Navbar />
+      <Home />
     </HashRouter>
   );
 }
 
-export default App
+export default App;
