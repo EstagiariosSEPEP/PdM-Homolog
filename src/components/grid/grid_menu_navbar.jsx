@@ -39,7 +39,7 @@ export default function Grid_menu_navbar({ onClose }) {
           <div className="bg-[var(--color-blue-1000)] text-white p-4 flex items-center justify-center rounded-br-[2rem] hover:shadow-[-1px_0px_20px_13px_var(--color-blue-1000)] hover:scale-105 transition-transform duration-300 cursor-pointer">
             <button className="text-start w-full cursor-pointer">
               <div className="flex flex-col flex-nowrap items-end">
-                <h4 className="w-40">conheça as metas</h4>
+                <h4 className="w-40 relative right-12">conheça as metas</h4>
                 <img className="w-20" src="/svg/logo-pdm.svg" alt="" />
               </div>
             </button>
