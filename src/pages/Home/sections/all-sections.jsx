@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { scrollToSection } from "../../../utils/scroll";
 import Introduction from "./introduction-section/introduction";
-import NewsCarousel from "../../../components/carousel/NewsCarousel";
+import About from "./about-section/about";
 
 export default function AllSections() {
   useEffect(() => {
@@ -25,7 +25,8 @@ export default function AllSections() {
 
   return (
     <div className="pt-24">
-        <Introduction/>
+        <div><Introduction/></div>
+        <div><About/></div>
     </div>
   );
 }
