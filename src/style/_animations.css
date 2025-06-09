@@ -184,3 +184,26 @@
 .hover-rotate:hover {
     transform: rotate(15deg);
 }
+
+.animated_line{
+    width: 28rem;
+    height: .5rem;
+    background-color: var(--color-cyan-medium);
+    position: relative;
+    left: 2rem;
+    bottom: 3rem;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        transform: scaleX(0.017857);
+        transition: all 0.3s ease-in-out;
+        animation: jello-vertical 0.9s both;
+    }
+}
+
+@keyframes jello-vertical {
+  0%   { transform: scale3d(1, 1, 1); }
+  30%  { transform: scale3d(0.75, 1.25, 1); }
+  40%  { transform: scale3d(1.25, 0.75, 1); }
+  100% { transform: scale3d(0, 0.017857, 1, 1); }
+}
