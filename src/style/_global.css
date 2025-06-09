@@ -5,3 +5,4 @@
 @import "./_variables_colors.css";
 @import "./_reset.css";
 @import '../pages/Home/home.css';
+@import '../pages/Home/sections/about-section/about.css';
