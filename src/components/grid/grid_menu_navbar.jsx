@@ -68,7 +68,7 @@ export default function Grid_menu_navbar({ onClose }) {
 
           <div className="bg-[var(--color-green-light)] text-white h-[11.5rem] p-4 flex items-start justify-center rounded-bl-[5rem] hover:scale-105 transition-transform duration-900 cursor-pointer">
             <button className="text-start w-full cursor-pointer">
-              <h2>transparência</h2>
+              <h2>transparência e monitoramento</h2>
             </button>
           </div>
 

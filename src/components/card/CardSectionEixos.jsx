@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import CustomButton from "../button/button";
+import CustomButton from "../Button/button";
 
 const animations = {
   "viver são paulo": { in: "tilt-in-bl", out: "tilt-out-tr" },
