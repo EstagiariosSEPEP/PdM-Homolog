@@ -6,7 +6,8 @@ export default function CustomButton({
   label,
   target,
   onClick,
-  className
+  className,
+  style
 }) {
   const handleClick = () => {
     if (type === "scroll") {
@@ -36,7 +37,7 @@ export default function CustomButton({
   } ${className || ""}`;
 
   return (
-    <button onClick={handleClick} className={buttonClass}>
+    <button onClick={handleClick} className={buttonClass} style={style}>
       {label}
     </button>
   );
