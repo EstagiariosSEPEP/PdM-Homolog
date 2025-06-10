@@ -28,7 +28,7 @@ export default function AllSections() {
     <div className="pt-24">
         <div><Introduction/></div>
         <div><About/></div>
-        <div><Eixos/></div>
+        <div className="pt-12"><Eixos/></div>
     </div>
   );
 }
