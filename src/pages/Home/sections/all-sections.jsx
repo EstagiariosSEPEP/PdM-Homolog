@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { scrollToSection } from "../../../utils/scroll";
 import Introduction from "./introduction-section/introduction";
 import About from "./about-section/about";
+import Eixos from "./eixos-section/eixos";
 
 export default function AllSections() {
   useEffect(() => {
@@ -27,6 +28,7 @@ export default function AllSections() {
     <div className="pt-24">
         <div><Introduction/></div>
         <div><About/></div>
+        <div><Eixos/></div>
     </div>
   );
 }
