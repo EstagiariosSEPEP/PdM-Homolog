@@ -6,7 +6,8 @@ export default function About() {
   return (
     <div className="py-8">
       <div className="p-4 w-full h-[111vh]">
-        <div className="section-about">
+        <div className="section-about"></div>
+        <div>
           <div className="absolute w-[43rem] right-[34rem] top-0">
             <h2 className="title-about">{AboutData.titulo}</h2>
             <div className="animated_line"></div>
