@@ -4,6 +4,7 @@ import Introduction from "./introduction-section/introduction";
 import About from "./about-section/about";
 import Eixos from "./eixos-section/eixos";
 import ParticipacaoSocial from "./participação/ParticipacaoSocial";
+import Regionalizacao from "./regionalizacao/Regionalizacao";
 
 export default function AllSections() {
   useEffect(() => {
@@ -26,11 +27,12 @@ export default function AllSections() {
   }, []);
 
   return (
-    <div className="pt-24">
+    <div className="pt-24 flex flex-col justify-center flex-nowrap ">
         <div><Introduction/></div>
         <div><About/></div>
-        <div className="pt-12"><Eixos/></div>
-        <div className="pt-24"><ParticipacaoSocial/></div>
+        <div><Eixos/></div>
+        <div><ParticipacaoSocial/></div>
+        <div><Regionalizacao/></div>
     </div>
   );
 }
