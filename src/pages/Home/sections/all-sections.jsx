@@ -1,5 +1,12 @@
 import { useEffect } from "react";
 import { scrollToSection } from "../../../utils/scroll";
+import Introduction from "./introduction-section/introduction";
+import About from "./about-section/about";
+import Eixos from "./eixos-section/eixos";
+import ParticipacaoSocial from "./participação/ParticipacaoSocial";
+import Regionalizacao from "./regionalizacao/Regionalizacao";
+import Transparencia from "./transparencia-section/Transparencia";
+import PdmsAnteriores from "./pdms-section/PdmsAnteriores";
 
 export default function AllSections() {
   useEffect(() => {
@@ -22,7 +29,14 @@ export default function AllSections() {
   }, []);
 
   return (
-    <div>
+    <div className="pt-24 flex flex-col justify-center flex-nowrap h-[780vh]">
+        <div><Introduction/></div>
+        <div><About/></div>
+        <div><Eixos/></div>
+        <div><ParticipacaoSocial/></div>
+        <div><Regionalizacao/></div>
+        <div><Transparencia/></div>
+        <div><PdmsAnteriores/></div>
     </div>
   );
 }

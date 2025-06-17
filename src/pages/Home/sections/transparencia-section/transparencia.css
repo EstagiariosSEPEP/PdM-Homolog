@@ -1,0 +1,25 @@
+.section-transparencia {
+    background-image: url('/images/transparencia-bg.svg');
+    background-size: cover;
+    width: 94%;
+    height: 91vh;
+    position: relative;
+    top: -2rem;
+    left: 2rem;
+}
+
+.animated_line_transparencia {
+    width: 59rem;
+    height: .5rem;
+    background-color: var(--color-cyan-medium);
+    position: relative;
+    left: 2rem;
+    bottom: 3rem;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        transform: scaleX(0.017857);
+        transition: all 0.3s ease-in-out;
+        animation: jello-vertical 0.9s both;
+    }
+}

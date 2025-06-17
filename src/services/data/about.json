@@ -1,0 +1,17 @@
+{
+    "titulo": "sobre o pdm",
+    "imagem": "/images/image_about_section.jpg",
+    "descricao": [
+        "O Programa de Metas articula ações de planos setoriais mais extensos, novas propostas do programa de governo do prefeito eleito, iniciativas concebidas pelas secretarias ao longo do processo de definição das metas e as contribuições dos cidadãos trazidas em diversas audiências públicas abertas à participação popular.",
+        "Além de dar transparência às políticas prioritárias da Prefeitura, o PdM permite às diversas secretarias uma visão sistêmica da gestão que evita a sobreposição de medidas, otimiza recursos e facilita execuções em conjunto. Em seu escopo estão realizações tangíveis, mensuráveis, cabíveis em uma perspectiva de 4 anos."
+    ],
+    "button": {
+        "texto": "saiba mais",
+        "link": "https://www.prefeitura.sp.gov.br/cidade/secretarias/governo/pdm/"
+    },
+    "button_download": {
+        "descricao": "saiba mais sobre o pdm 2025/2028",
+        "texto": "baixar o pdm 25/28",
+        "link": "https://www.prefeitura.sp.gov.br/cidade/secretarias/governo/pdm/download/"
+    }
+}

@@ -1,0 +1,9 @@
+.section-pdms {
+    background-image: url('/images/pdm_anteriores.svg');
+    background-size: cover;
+    width: 73%;
+    height: 90vh;
+    position: relative;
+    top: 0rem;
+    left: 3rem;
+}

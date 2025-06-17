@@ -1,0 +1,13 @@
+.section-participacao-social {
+    background-image: url('/images/participacao-bg.svg');
+    background-size: cover;
+    width: 93%;
+    height: 95vh;
+    position: absolute;
+    left: 4rem;
+    z-index: -1;
+}
+
+.text-paragrafo{
+    font-size: 2.6rem;
+}

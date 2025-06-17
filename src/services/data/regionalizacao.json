@@ -1,0 +1,13 @@
+[
+    {
+        "titulo": "regionalização",
+        "descricao": [
+            "O Programa de Metas da Prefeitura de São Paulo prioriza transparência e monitoramento colaborativo. Os dados estão disponíveis em formato aberto, e o acompanhamento é feito pela Rede de Planejamento, com representantes de cada secretaria e da SEPLAN. O sistema oficial de monitoramento é o SMAE, que organiza e analisa os dados de forma estruturada. A Prefeitura também publica relatórios e balanços periódicos para garantir a prestação de contas." 
+        ],
+        "paragrafo": "mapa interativo com regionalização das metas",
+        "button": {
+            "texto": "regionalização",
+            "link": "https://devolutiva.pdm.prefeitura.sp.gov.br/"
+        }
+    }
+]

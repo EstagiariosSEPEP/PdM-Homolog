@@ -1,0 +1,8 @@
+.section-regionalizacao{
+    background-image: url('/images/regionalizacao-bg.png');
+    background-size: cover;
+    width: 70%;
+    height: 82vh;
+    position: relative;
+    left: 3rem;
+}
