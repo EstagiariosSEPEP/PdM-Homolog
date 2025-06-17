@@ -9,9 +9,9 @@
     background-size: cover;
     width: 63rem;
     height: 100vh;
-    position: absolute;
-    top: 53rem;
-    left: 14rem;
+    position: relative;
+    top: 0rem;
+    left: 16rem;
 }
 
 .text{

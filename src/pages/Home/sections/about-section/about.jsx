@@ -8,11 +8,11 @@ export default function About() {
       <div className="p-4 w-full h-[111vh]">
         <div className="section-about"></div>
         <div>
-          <div className="absolute w-[43rem]">
+          <div className="relative w-[43rem] bottom-[56rem]">
             <h2 className="title-about">{AboutData.titulo}</h2>
             <div className="animated_line"></div>
           </div>
-          <div className="w-[46rem] text-justify absolute left-[65rem] top-[71rem] flex items-center justify-center flex-col flex-nowrap gap-4">
+          <div className="w-[46rem] text-justify relative left-[68rem] bottom-[52rem] flex items-center justify-center flex-col flex-nowrap gap-4">
             {AboutData.descricao.map((paragrafo, index) => (
               <p key={index} className="mb-4 font-medium text">
                 {paragrafo}
